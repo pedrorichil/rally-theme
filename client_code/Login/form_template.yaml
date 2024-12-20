@@ -6,19 +6,19 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'AGPPGH,GGRAUP'}
     name: spacer_3
-    properties: {height: 70}
+    properties: {height: 118}
     type: Spacer
   - components:
     - layout_properties: {grid_position: 'GGBZPP,BFMVLC'}
       name: label_1
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 25, foreground: '', icon: '', icon_align: left, italic: false, role: title, spacing_above: medium, spacing_below: small, text: Log in to the Expense Approval App, tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 25, foreground: '', icon: 'fa:address-card-o', icon_align: left, italic: false, role: title, spacing_above: medium, spacing_below: small, text: Faça Login, tooltip: '', underline: false, visible: true}
       type: Label
     - event_bindings: {click: button_1_click}
-      layout_properties: {grid_position: 'EXDMVU,VZQFKH'}
+      layout_properties: {full_width_row: false, grid_position: 'EXDMVU,VZQFKH'}
       name: button_1
       properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: 'fa:user', icon_align: left, italic: false, role: outlined, spacing_above: medium, spacing_below: medium, text: Log In, tooltip: '', underline: false, visible: true}
       type: Button
-    layout_properties: {grid_position: 'AGPPGH,RUQNVX'}
+    layout_properties: {grid_position: 'AGPPGH,RUQNVX', row_background: ''}
     name: card_1
     properties: {col_widths: '{}', role: card}
     type: ColumnPanel
